@@ -1,0 +1,93 @@
+/* selector de etiqueta
+p{
+    color: green;
+}
+h1{
+    color: rgb(169, 110, 224);
+}*/
+
+/* selectores de clase
+.title{
+    color: green;
+}
+
+.text{
+    color: burlywood;
+}*/
+
+/* selectores id
+#title{
+    color: aqua;
+}
+#text{
+    color: brown;
+}*/
+
+/* selectores universales
+
+* {
+    color: red;
+}*/
+
+/* selectores de atributo*/
+/* Selecciona los elementos que tiene ese atributo*/
+[href]{
+    color: green;
+}
+/* Selecciona los elementos que tiene ese atributo y ese valor*/
+[href="#"]{
+    color: red;
+}
+
+/* Selecciona los elementos que tiene ese atributo al menos ese valor una vez*/
+[class~="verde"]{
+    color: yellow;
+}
+
+/* Selecciona los elementos que tiene ese atributo y exactamete ese valor o el valor seguidod de un guion*/
+[class|="verde"]{
+    color: firebrick;
+}
+
+/* Selecciona los elementos que tiene ese atributo y empiezan por ese valor*/
+[class^="rojo"]{
+    color: plum;
+}
+
+/* Selecciona los elementos que tiene ese atributo y terminan por ese valor*/
+[class$="rojo"]{
+    color: burlywood;
+}
+
+/* Selecciona los elementos que tiene ese atributo y contienen ese valor*/
+[class*="rojo"]{
+    color: burlywood;
+}
+
+/* selectores combinadores*/
+/* selector de hermano adyacente
+seleciona al hermano que este justo por debajo d el el estilo se aplica al hermano inferior*/
+h1+h2{
+    color: red;
+}
+h2+h2{
+    color: blueviolet;
+}
+
+/*selector de hermano general
+selecciona a todos los hermanos que esten por debajo de el, se aplica a todos los hermanos el estilo*/
+h1~h3{
+    color: green;
+}
+
+/*selectores descendentes
+selecciona todos lo hijos*/
+div span{
+    color: greenyellow;
+}
+
+/*selectores de hijo directo
+selecciona los hijos que sean directos es decir que no esten dentro de otras etiquetas*/
+p >span{
+    color: blue;
+}

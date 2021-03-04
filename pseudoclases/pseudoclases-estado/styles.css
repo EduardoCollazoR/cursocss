@@ -1,0 +1,50 @@
+/*
+UI States
+    :enabled
+    :disabled
+    :checked
+    :in-range
+    :out-of-range
+    :required
+    :optional
+    :valid
+    :invalid
+    :read-only
+    :read-write
+*/
+.input,
+.label{
+    display: block;
+}
+
+input:enabled{
+    background: red;
+}
+.input:disabled{
+    background: yellow;
+    border: none;
+}
+.input:checked + label{
+    font-size: 2em;
+}
+.input:in-range{
+    background: green;
+}
+.input:out-of-range{
+    background: blue;
+}
+
+.input:optional{
+    background: paleturquoise;
+}
+
+.input:required{
+    background: darkgreen;
+}
+
+.input:valid{
+    background: grey;
+}
+.input:invalid{
+    background: red;
+}

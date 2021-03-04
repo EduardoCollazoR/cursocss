@@ -1,0 +1,1 @@
+[href]{color:green}[href="#"]{color:red}[class~=verde]{color:yellow}[class|=verde]{color:firebrick}[class^=rojo]{color:plum}[class$=rojo]{color:burlywood}[class*=rojo]{color:burlywood}h1+h2{color:red}h2+h2{color:blueviolet}h1~h3{color:green}div span{color:greenyellow}p>span{color:blue}

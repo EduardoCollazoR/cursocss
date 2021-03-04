@@ -1,0 +1,25 @@
+/* 
+Sitios gratuitos para fuentes
+    https://www.dafont.com/es/
+    https://www.1001fonts.com/
+    Analizar fuentes web
+        whatFont
+*/
+
+/* 
+.title{
+    font-family: 'Noto Sans TC', sans-serif; ;
+}
+
+.paragraph{
+    font-family: 'Lato', sans-serif;
+} */
+
+@font-face{
+    src:url('assets/fonts/Urusans-Regular.ttf');
+    font-family: 'myFont';
+}
+
+.title{
+    font-family: myFont;
+}

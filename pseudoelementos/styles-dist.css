@@ -1,0 +1,1 @@
+.title:first-letter{color:red;font-size:2em}.text:first-line{color:violet}.text::selection{color:lightgreen}.dolar:after,.dolar:before{content:'';display:block;width:20px;height:20px;background:red}
